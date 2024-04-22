@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-j4#+dy&vz&xnu60*^$_w!z-5(=9*#po5p_3kg$d-)okrf9a&(j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['asn-p2-jbc.azurewebsites.net','http://127.0.0.1:8000/']
+ALLOWED_HOSTS = ['https://asn-p2-jbc.azurewebsites.net/','http://127.0.0.1:8000/']
 
 
 # Application definition
